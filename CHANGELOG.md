@@ -1,4 +1,4 @@
-# @datacub/react-native
+# Changelog
 
 ## 0.1.0-beta.1
 
