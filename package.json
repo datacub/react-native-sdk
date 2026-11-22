@@ -1,16 +1,12 @@
 {
   "name": "@datacub/react-native",
   "version": "0.1.0-beta.1",
-  "description": "The official datacub SDK for React Native and Expo apps: product analytics with screens, identity and consent. Beta.",
+  "description": "datacub product analytics for React Native and Expo. Pure JavaScript, no device identifiers. Beta.",
   "keywords": [
     "analytics",
     "product-analytics",
     "react-native",
     "expo",
-    "mobile-analytics",
-    "sdk",
-    "privacy",
-    "consent",
     "datacub",
     "arabic"
   ],
@@ -76,8 +72,7 @@
     "test": "bun run build && bun test",
     "test:hermes": "bun run build && bun test/hermes/run.ts",
     "test:bundle": "bun run build && node test/metro/bundle.mjs && bun test/metro/hermes.ts",
-    "pack:check": "bun scripts/pack-check.ts",
-    "version": "changeset version"
+    "pack:check": "bun scripts/pack-check.ts"
   },
   "peerDependencies": {
     "react-native": ">=0.75.0"
@@ -86,8 +81,6 @@
     "@babel/core": "7.29.13",
     "@babel/runtime": "7.29.14",
     "@biomejs/biome": "2.6.2",
-    "@changesets/changelog-github": "1.0.1",
-    "@changesets/cli": "3.0.3",
     "@react-native/babel-preset": "0.88.1",
     "@react-native/metro-config": "0.88.1",
     "@types/bun": "1.4.4",
